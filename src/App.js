@@ -1,7 +1,8 @@
-import AboutComponent from './components/about';
+import AboutMeComponent from './components/about';
 import './App.css';
 import IntroComponent from './components/intro';
 import ToolsComponent from './components/tools';
+import AboutVTComponent from './components/aboutVT';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         </header>
 
         <IntroComponent/>
-        <AboutComponent/>
+        <AboutMeComponent/>
+        <AboutVTComponent/>
         <ToolsComponent/>
     </div>
   );

@@ -1,23 +1,15 @@
 import Markdown from 'markdown-to-jsx';
-import TOOLS from '../markdown/Tools.mdx'
+import ABOUTVT from '../markdown/AboutVT.md'
 import { useEffect, useState } from "react";
 
-// const Image = ({ src, alt, ...props }) => (
-//   <img src={src} {...props} alt={alt}/>
-// );
-// const options = {
-//   overrides: {
-//     img: { component: Image }
-//   }
-// };
 
 
-const ToolsComponent = ()=> {
+const AboutVTComponent = ()=> {
 
     let [ content, setContent] = useState({md: ""});
 
     useEffect(()=> {
-        fetch(TOOLS)
+        fetch(ABOUTVT)
             .then((res) => res.text())
             .then((md) => {
                 setContent({ md })
@@ -26,9 +18,11 @@ const ToolsComponent = ()=> {
 
     return (
       <div className="text-block">
-        <Markdown children={content.md} />
+        <div>
+        <Markdown children={content.md}/>
+        </div>
       </div>
     )
 }
 
-export default ToolsComponent
+export default AboutVTComponent

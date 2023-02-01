@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 
 
-const AboutComponent = ()=> {
+const AboutMeComponent = ()=> {
 
     let [ content, setContent] = useState({md: ""});
 
@@ -18,9 +18,11 @@ const AboutComponent = ()=> {
 
     return (
       <div className="text-block">
+        <div>
         <Markdown children={content.md}/>
+        </div>
       </div>
     )
 }
 
-export default AboutComponent
+export default AboutMeComponent
