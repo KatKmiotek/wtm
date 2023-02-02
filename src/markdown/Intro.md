@@ -1,5 +1,4 @@
-#### Workshop content:
- - What? - what is visual regression testing  
+ - What? - what is visual regression testing?  
 
  - Why? - why to use it?  
 
