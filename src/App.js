@@ -3,6 +3,8 @@ import './App.css';
 import IntroComponent from './components/intro';
 import ToolsComponent from './components/tools';
 import AboutVTComponent from './components/aboutVT';
+import WorkshopComponent from './components/workshop';
+import PlaywrightComponent from './components/playwright';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <AboutMeComponent/>
         <AboutVTComponent/>
         <ToolsComponent/>
+        <PlaywrightComponent/>
+        <WorkshopComponent/>
     </div>
   );
 }
