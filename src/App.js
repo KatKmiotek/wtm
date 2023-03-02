@@ -5,6 +5,7 @@ import ToolsComponent from './components/tools';
 import AboutVTComponent from './components/aboutVT';
 import WorkshopComponent from './components/workshop';
 import PlaywrightComponent from './components/playwright';
+import EndComponent from './components/end';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <ToolsComponent/>
         <PlaywrightComponent/>
         <WorkshopComponent/>
+        <EndComponent/>
     </div>
   );
 }
