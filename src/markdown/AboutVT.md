@@ -34,8 +34,12 @@ _ Where? _
 
 - separate tests  
 
-
-
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
 _ When? _
 
 - as often as possible  
@@ -43,7 +47,12 @@ _ When? _
 - run them in the pipeline on every merge request  
 
 - run them locally  
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 _ Who? _  
   
@@ -54,3 +63,9 @@ _ Who? _
 - Designer  
 
 - Product Manager  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>

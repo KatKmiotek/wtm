@@ -1,8 +1,21 @@
 
+## Workshop
+<br>
+<br>
+
 For the workshop part will be using project located: 
 [https://github.com/KatKmiotek/wtm-workshop](https://github.com/KatKmiotek/wtm-workshop)  
-
-  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div className='tag'>#WTMDareToBe</div>
+<br>
+<br>
 First thing we need to do now is to run:  
   
 ```

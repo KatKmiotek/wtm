@@ -17,6 +17,7 @@ function App() {
         <img src={require('./qr.png')} alt="qr code" width="150" height="150" />
         <p>by Kat Kmiotek</p>
         </header>
+        <div className='tag'>#WTMDareToBe</div>
 
         <IntroComponent/>
         <AboutMeComponent/>

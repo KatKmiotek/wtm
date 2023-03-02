@@ -10,10 +10,13 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+} */
+@media (max-width: 1250px) {
+  
 }
 
 .App-header {
@@ -149,4 +152,10 @@ a {
   50% {
     opacity: 0.95;
   }
+}
+.tag {
+  text-align: right;
+  color: rgb(237, 16, 185);
+  font-family: 'Lato', sans-serif;
+  font-size: 48px;
 }

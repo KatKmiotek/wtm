@@ -1,12 +1,18 @@
-There is a range of tools that can you help with implementing visual tests. They offer:
+There is a range of tools that can you help with implementing visual tests.  They offer:
  - dashboard  
  - storage of golden images
  - control over what and how is compared
  - easy approval process
  - cross browser testing
  - integration with your project framework 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-Few big names worth looking at:
+Few big names worth looking at:  
 - [Applitools](https://applitools.com/)     
 
 ![applitools](/applitools.png)  
