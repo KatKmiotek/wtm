@@ -3,7 +3,15 @@ What?
  - compares if recent code changes introduced affected what user sees  
    
  - comparing __ expected __ image (golden image)  with __ actual __  
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 _ Why? _
   
  - prevents bugs getting to production:  
