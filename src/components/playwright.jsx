@@ -15,8 +15,10 @@ const PlaywrightComponent = ()=> {
     }, [])
 
     return (
+      <div className='logo'>
       <div className="text-block">
         <Markdown children={content.md} />
+      </div>
       </div>
     )
 }

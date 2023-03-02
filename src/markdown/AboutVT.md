@@ -18,11 +18,17 @@ _ Why? _
      
      
 ![expected](/expected.png) ![actual](/actual.png)  
-  
+<br> 
+<br>
+<br>
 ![button](/button.png) ![button with string](/button-string.png)  
-  
+<br> 
+<br>
+<br>
 ![airbnb](/airbnb.png)  
-
+<br> 
+<br>
+<br>
 <div class="wrapper">
 <div class="loader">  
 <div class="loader-text">

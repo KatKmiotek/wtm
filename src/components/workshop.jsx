@@ -19,7 +19,6 @@ const WorkshopComponent = ()=> {
       <div className="text-block">
         <Markdown children={content.md}/>
       </div>
-      <div className='tag'>#WTMDareToBe</div>
       </>
     )
 }

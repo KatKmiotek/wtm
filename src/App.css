@@ -9,14 +9,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+.App-header img{
+  max-width: 200px;
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-@media (max-width: 1250px) {
-  
 }
 
 .App-header {
@@ -28,10 +23,11 @@
   font-size: calc(10px + 2vmin);
   color: rgb(1, 1, 1);
 }
-code{
+
+code {
   background-color: #b5e1ee;
   font-family: monospace;
-  /* font-size: calc(8px + 2vmin); */
+  font-size: calc(7px + 2vmin);
 }
 
 a {
@@ -65,6 +61,7 @@ a {
   color: rgb(1, 1, 1);
   text-align: left;
 }
+
 .loader-text {
   margin-top: 10px;
   padding-top: 10px;
@@ -76,6 +73,7 @@ a {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -92,7 +90,7 @@ a {
   /* content-alignment: center; */
   align-content: center;
   align-items: center;
-  background-color: rgba(15,15,15,0.5);
+  background-color: rgba(15, 15, 15, 0.5);
   border-radius: 5px;
   height: 200px;
   width: 200px;
@@ -124,7 +122,7 @@ a {
   animation-timing-function: linear;
 }
 
-.description-box{
+.description-box {
   margin-top: 10px;
   padding: 10px 5px 10px 5px;
   font-family: 'Lato', sans-serif;
@@ -136,26 +134,47 @@ a {
   text-align: center;
   border-radius: 5px;
 }
-@keyframes loading{
+
+@keyframes loading {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 @keyframes fading {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 0.05;
   }
+
   50% {
     opacity: 0.95;
   }
 }
+
 .tag {
   text-align: right;
   color: rgb(237, 16, 185);
   font-family: 'Lato', sans-serif;
-  font-size: 48px;
+  font-size: 40px;
+}
+img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+.tools img{
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+.logo img{
+  width: 100%;
+  max-width: 300px;
+  height: auto;
 }
