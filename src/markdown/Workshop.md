@@ -65,7 +65,7 @@ As Playwright is all about developer's experience even writing test code is fun.
   
 ```npx playwright codegen <your-website-URL>```
 
-Create a new spec file and paste code from Codegen, add `.only` tag and run it in debug mode: `npm run test:debug`
+Create a new spec file and paste code from Codegen, add `.only` tag and run it in debug mode: `npm run test:debug`  
 Ok, so this is our first test :)  
 <br>
 <br>
