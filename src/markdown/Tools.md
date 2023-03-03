@@ -1,4 +1,4 @@
-There is a range of tools that can you help with implementing visual tests.  They offer:
+There is a range of tools that can help you with implementing visual tests.  They offer:
  - dashboard  
  - storage of golden images
  - control over what and how is compared
