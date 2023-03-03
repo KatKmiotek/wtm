@@ -14,7 +14,8 @@ What?
 <br>
 _ Why? _
   
- - prevents bugs getting to production:  
+ - prevents bugs getting to production
+ - catch what functional/E2E tests missed  
      
      
 ![expected](/expected.png) ![actual](/actual.png)  
