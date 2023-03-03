@@ -78,6 +78,8 @@ For Visual Regression tests we will be using Playwright test runner's assertion 
 
 ```await expect(page).toHaveScreenshot('homepage.png')```  
 
+tests are expected to fail now as there is no golden image. Let's run test again.   
+
 If we want to capture whole page not just a view port  
 <div>
 ```
