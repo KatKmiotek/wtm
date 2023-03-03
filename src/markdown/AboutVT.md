@@ -3,6 +3,7 @@ What?
  - compares if recent code changes introduced affected what user sees  
    
  - comparing __ expected __ image (golden image)  with __ actual __  
+ - changes can be approved or rejected
 <br>
 <br>
 <br>
